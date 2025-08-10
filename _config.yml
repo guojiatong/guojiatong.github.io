@@ -47,7 +47,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "https://github.com/guojiatong?tab=repositories"
+  github           : "guojiatong"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -60,9 +60,9 @@ author:
   goodreads        : # Username
   google_plus      : # Username
   keybase          : # Username
-  instagram        : "https://www.instagram.com/jaytonguo/"
+  instagram        : "jaytonguo"
   lastfm           : # Username
-  linkedin         : "https://www.linkedin.com/in/jiatong-guo-7004b4328/"
+  linkedin         : "jiatong-guo-7004b4328"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -77,8 +77,8 @@ author:
   xing             : # Username
   youtube          : # Username
   zhihu            : # Username
-  Bilibili         : "https://space.bilibili.com/437707851?spm_id_from=333.1007.0.0"
-  Redbook          : "https://www.xiaohongshu.com/user/profile/60ced7e90000000001005e83"
+  bilibili         : "https://space.bilibili.com/437707851?spm_id_from=333.1007.0.0"
+  redbook          : "https://www.xiaohongshu.com/user/profile/60ced7e90000000001005e83"
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
