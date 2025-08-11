@@ -5,8 +5,6 @@ permalink: /mylife/
 author_profile: true
 ---
 
-# Hobbies
-
 ## Basketball
 > Basketball gives me a second life ! I can play as Shooting Guard or Small Forward, and I'm a superfan of Lebron James & Stephen Curry. I start playing basketball when I was 7. I was a member of the school basketball team in elementary school, and we won the championship🥇 of the city-wide elementary school basketball league. Unforgettable memory!
 
@@ -32,6 +30,8 @@ author_profile: true
 (1) Sept 2021 - June 2024: Class Monitor of Bachelor-Maser-PhD Innovation Honor-Class
 * Organized group learning activities and provided support to classmates in resolving academic and personal challenges
 * Coordinated with other classes to facilitate collaborative activities and events
+
+
 (2) Sept 2022 - Dec 2022: Peer-support Academic Counseling Project in HUST
 * Led the ***Physics*** peer counseling team, assisting underperforming students in improving their academic performance while managing the team’s schedule and task distribution
 * Delivered lectures on ***Physics***, ***Circuit Theory***, and ***Analog Electronic Technology*** as teaching assistant
