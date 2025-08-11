@@ -31,7 +31,7 @@ Education Experience
 * Advisor: Prof. [Eshed Ohn-bar](https://scholar.google.com/citations?hl=en&user=p9zVBV4AAAAJ&view_op=list_works&sortby=pubdate)
 
 (2) Sep. 2024 - Jun. 2025: **University of California, Santa Barbara (UCSB)**
-* One-year Graduate Academic Preparation Program (Non-degree)
+* ##One-year Graduate Academic Preparation Program (Non-degree)##
 * GPA 3.95/4 in Electrical and Computer Engineering
 * Courses (Graduate-level): Tensor Computation for Machine Learning (A), Machine Learning for Bio-images (A), Neurally Inspired Computing Systems (A), Uncertainty Quantification and Scientific ML (A), Robustness in Machine Learning (A), Imaging System (A-)
 * Advisor: Prof. [Zheng Zhang](https://scholar.google.com/citations?hl=en&user=qeahx5QAAAAJ&view_op=list_works&sortby=pubdate)
@@ -59,4 +59,4 @@ Honors and Awards
 
 For more info
 ------
-This homepage offers just a glimpse of who I am. If you’d like to know more, feel free to send me an email — or even better, invite me to a game of basketball!
+> This homepage offers just a glimpse of who I am. If you’d like to know more, feel free to send me an email — or even better, invite me to a game of basketball!
