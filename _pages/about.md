@@ -7,37 +7,46 @@ redirect_from:
   - /about.html
 ---
 
-**First-year PhD student at Boston University, Department of Electrical and Computer Engineering**
+**First-year PhD Student**
+*Boston University, Department of Electrical and Computer Engineering*
 
 Welcome to my website!
 
 I’m Jiatong Guo, born in August 2003 in Henan, China.
 
-I’m a first-year PhD student at Boston University, advised by Prof. Eshed Ohn-Bar. I earned my Bachelor of Engineering from Huazhong University of Science and Technology (Wuhan, China) under the supervision of Prof. Chao Wang. During my fourth undergraduate year, I studied at the University of California, Santa Barbara, under the supervision of Prof. Zheng Zhang.
-
-This homepage offers just a glimpse of who I am. If you’d like to know more, feel free to send me an email—or even better, challenge me to a game of basketball!
+Currently I’m a first-year PhD student at Boston University, advised by Prof. [Eshed Ohn-bar](https://scholar.google.com/citations?hl=en&user=p9zVBV4AAAAJ&view_op=list_works&sortby=pubdate). Earlier, I earned my Bachelor of Engineering from Huazhong University of Science and Technology (Wuhan, China) under the supervision of Prof. Chao Wang. During my fourth undergraduate year, I studied at the University of California, Santa Barbara, under the supervision of Prof. [Zheng Zhang](https://scholar.google.com/citations?hl=en&user=qeahx5QAAAAJ&view_op=list_works&sortby=pubdate). 
 
 
-Site-wide configuration
+Research Interests
 ------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+Human-Machine Interaction, Neuromorphic Computing, Artificial Intelligence, Computer Vision
 
-Create content & metadata
+
+
+Education Experience
 ------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+Sep. 2025 - Present: **Boston University (BU)**
+* **Ph.D. Student** in Computer Engineering
+* Advisor: Prof. Eshed Ohn-bar
 
-**Markdown generator**
+Sep. 2024 - Jun. 2025: **University of California, Santa Barbara (UCSB)**
+* One-year Graduate Academic Preparation Program (Non-degree)
+* GPA 3.95/4 in Electrical and Computer Engineering
+* Courses (Graduate-level): Tensor Computation for Machine Learning (A), Machine Learning for Bio-images (A), Neurally Inspired Computing Systems (A), Uncertainty Quantification and Scientific ML (A), Robustness in Machine Learning (A), Imaging System (A-)
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+Sep. 2021 - Jun. 2025: **Huazhong University of Science and Technology (HUST)**
+* **Bachelor of Engineering** in Integrated Circuit and System Design 
+* GPA 3.93/4 (92.3/100), ranking 2/33 (in Elite Class of School of Optical and Electronic Information) 
+* National Scholarship for Undergraduate Students (top 0.2% Nation-wide, Sept 2022, Sept 2023, Sept 2024)
+* HUST Outstanding Graduate (top 5% in HUST, June 2025)
 
-How to edit your site's GitHub repository
+
+Honors and Awards
 ------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+
+
 
 For more info
 ------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+This homepage offers just a glimpse of who I am. If you’d like to know more, feel free to send me an email—or even better, challenge me to a game of basketball!
