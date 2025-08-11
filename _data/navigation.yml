@@ -20,5 +20,8 @@ main:
   - title: "News"
     url: /news/
 
+  - title: "MyLife"
+    url: /mylife/
+
   - title: "Contact"
     url: /contact/
