@@ -45,7 +45,7 @@ Our goal is to develop a tensor-based hardware-efficient on-device training fram
 
 ## International Contest of Autonomous Running Robots
 
-<img src = "/images/robot.jpg" width="300" height="200"/>
+<img src = "/images/robot.JPG" width="300" height="200"/>
 
 [July - Aug 2023] **Four-person Team Leader**
 - Developed surroundings recognition algorithms in Python, allowing the robot to autonomously identify its environment and execute corresponding actions to overcome obstacles such as single-plank bridges, stairs, and minefields
