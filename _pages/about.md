@@ -60,3 +60,9 @@ Honors and Awards
 For more info
 ------
 > This homepage offers just a glimpse of who I am. If you’d like to know more, feel free to send me an email — or even better, invite me to a game of basketball!
+
+{% include base_path %}
+
+<div class="cv-download-links">
+  <a href="{{ base_path }}/files/cv.pdf" class="btn btn--primary">Download Jiatong's CV as PDF</a>
+</div>
