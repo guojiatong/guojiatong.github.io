@@ -8,7 +8,7 @@ author_profile: true
 ## Basketball
 > Basketball gives me a second life ! I can play as Shooting Guard or Small Forward, and I'm a superfan of Lebron James & Stephen Curry. I start playing basketball when I was 7. I was a member of the school basketball team in elementary school, and we won the championship🥇 of the city-wide elementary school basketball league. Unforgettable memory!
 
-<img src = "/images/basketball.png" />
+<img src = "/images/basketball.png" style="width:auto; height:500px;"/>
 
 * 06/2025 🏅Champion of ‘Graduation Cup’ basketball Tournament in HUST
 * 06/2024 🏅Champion of ‘IC-Cup’ basketball Tournament in HUST-IC
@@ -56,7 +56,7 @@ author_profile: true
 
 ## My Class in HUST
 
-<img src = "/images/class.png" />
+<img src = "/images/class.png" style="width:auto; height:500px;" />
 
 * 10/2023 Excellent Academic Ethos Class in HUST
 * 03/2023 Excellent League Branch of CCYL
@@ -67,7 +67,7 @@ author_profile: true
 
 ## My Dormitory in HUST-OEI
 
-<img src = "/images/dormitory.png" />
+<img src = "/images/dormitory.png" style="width:auto; height:500px;" />
 
 * 10/2023 Excellent Undergraduate Dormitory in HUST
 * 11/2022 Excellent Undergraduate Dormitory in HUST
