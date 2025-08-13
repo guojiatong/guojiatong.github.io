@@ -20,7 +20,7 @@ Currently I’m a first-year PhD student at Boston University, advised by Prof. 
 
 Research Interests
 ------
-Human-Machine Interaction, Neuromorphic Computing, Artificial Intelligence, Computer Vision
+Human-Machine Interaction, Neuromorphic Computing, Machine Learning, Computer Vision
 
 
 
