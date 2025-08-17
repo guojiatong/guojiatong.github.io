@@ -26,22 +26,31 @@ Human-Machine Interaction, Neuromorphic Computing, Machine Learning, Computer Vi
 
 Education Experience
 ------
-(1) Sep. 2025 - Present: **Boston University (BU)**
+(1) Sept. 2025 - Present: **Boston University (BU)**
 * **Ph.D. Student** in Computer Engineering
 * Advisor: Prof. [Eshed Ohn-bar](https://scholar.google.com/citations?hl=en&user=p9zVBV4AAAAJ&view_op=list_works&sortby=pubdate)
 
-(2) Sep. 2024 - Jun. 2025: **University of California, Santa Barbara (UCSB)**
+(2) Sept. 2024 - Jun. 2025: **University of California, Santa Barbara (UCSB)**
 * **One-year Graduate Academic Preparation Program (Non-degree)**
 * GPA 3.95/4 in Electrical and Computer Engineering
 * Courses (Graduate-level): Tensor Computation for Machine Learning (A), Machine Learning for Bio-images (A), Neurally Inspired Computing Systems (A), Uncertainty Quantification and Scientific ML (A), Robustness in Machine Learning (A), Imaging System (A-)
 * Advisor: Prof. [Zheng Zhang](https://scholar.google.com/citations?hl=en&user=qeahx5QAAAAJ&view_op=list_works&sortby=pubdate)
 
-(3) Sep. 2021 - Jun. 2025: **Huazhong University of Science and Technology (HUST)**
+(3) Sept. 2021 - Jun. 2025: **Huazhong University of Science and Technology (HUST)**
 * **Bachelor of Engineering** in Integrated Circuit and System Design 
 * GPA 3.93/4 (92.3/100), ranking 2/33 (in Elite Class of School of Optical and Electronic Information) 
 * Undergraduate National Scholarship (top 0.2% Nation-wide, 2022 & 2023 & 2024)
 * HUST Outstanding Graduate (top 5% in HUST, June 2025)
 * Advisor: Prof. [Chao Wang](https://ieeexplore.ieee.org/author/37088353491)
+
+Work Experience
+------
+(1) July - Sept. 2024: **New York University Shanghai**
+- Role: Research Assistant advised by Prof. Zhuocheng Xiao
+- Research Keywords: Computational Neuroscience, Neuronal Oscillation, Spiking Neural Network, Mouse Visual Cortex
+- Designed a scalable spiking neuron network in MATLAB to model a small copy of the mouse visual cortex L2/3, generating multiband neuronal oscillations (gamma, beta, alpha, etc.) using data from the Allen Institute (projection probability, synaptic strength, etc.)
+- Conducted extensive simulations to explore the systematic relationship between biological parameters and the various types of neuronal oscillations observed in the network
+- Research Document: [How Inhibitory Neural Circuits Govern Multiband Neuronal Oscillations](https://drive.google.com/file/d/1pqIziOuovjc3ZIlvWkT5Ww1aOIFoRuK7/view)
 
 
 Honors and Awards
