@@ -20,7 +20,7 @@ Currently I’m a first-year PhD student at Boston University, advised by Prof. 
 
 Research Interests
 ------
-Human-Machine Interaction, Neuromorphic Computing, Machine Learning, Computer Vision
+Machine Learning, Computer Vision, Human-Machine Interaction, Robotics, Neuromorphic Computing 
 
 
 
@@ -45,7 +45,7 @@ Education Experience
 
 Work Experience
 ------
-(1) July - Sept. 2024: **New York University Shanghai**
+(1) July - Sept. 2024: **New York University Shanghai (NYUSH)**
 - Role: Research Assistant advised by Prof. Zhuocheng Xiao
 - Research Keywords: Computational Neuroscience, Neuronal Oscillation, Spiking Neural Network, Mouse Visual Cortex
 - Designed a scalable spiking neuron network in MATLAB to model a small copy of the mouse visual cortex L2/3, generating multiband neuronal oscillations (gamma, beta, alpha, etc.) using data from the Allen Institute (projection probability, synaptic strength, etc.)
@@ -60,7 +60,7 @@ Honors and Awards
 * **Undergraduate National Scholarship (top 0.2% Nation-wide, 2022 & 2023 & 2024)**
 * HUST Model Student (top 5% in HUST, 2022 & 2023 & 2024)
 * The Hui-ding Company Scholarship (top one in HUST-OEI, Dec 2023)
-* Extraordinary Undergraduate Student in HUST (top 2% in HUST, Dec 2022)
+* HUST Extraordinary Undergraduate Student (top 2% in HUST, Dec 2022)
 * The Optic Valley of China Scholarship (top 0.5% in HUST, Nov 2022)
 * HUST Academic Excellence Scholarship (top 10% in HUST, May 2022)
 
