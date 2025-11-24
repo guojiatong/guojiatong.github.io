@@ -7,5 +7,5 @@ excerpt: 'Biological realism and computational efficiency are crucial for modeli
 date: 2024-12-01
 venue: 'IEEE Region 10 Conference (TENCON), Singapore'
 paperurl: 'https://github.com/guojiatong/guojiatong.github.io/blob/master/files/Dual_mode_spiking_neuron.pdf'
-citation: 'Guo, Jiatong, et al. "A Low-Latency and High-Accuracy Dual-Mode Neuron Design for Accelerating Neurological Diseases Simulation and Analysis." TENCON 2024-2024 IEEE Region 10 Conference (TENCON). IEEE, 2024.'
+citation: 'Guo, Jiatong, Jinxiang Gao, et al. "A Low-Latency and High-Accuracy Dual-Mode Neuron Design for Accelerating Neurological Diseases Simulation and Analysis." TENCON 2024-2024 IEEE Region 10 Conference (TENCON). IEEE, 2024.'
 ---
