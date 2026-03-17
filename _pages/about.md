@@ -55,7 +55,7 @@ Work Experience
 
 Honors and Awards
 ------
-* BU CISE PhD Scholar Award (top four in 2025 BU CISE admitted PhD students, Apr 2025)
+* BU CISE PhD Scholar Award (3/30+ in 2025 BU CISE admitted PhD students, Apr 2025)
 * HUST Outstanding Graduate (top 5% in HUST, June 2025)
 * **Undergraduate National Scholarship (top 0.2% Nation-wide, 2022 & 2023 & 2024)**
 * HUST Model Student (top 5% in HUST, 2022 & 2023 & 2024)
