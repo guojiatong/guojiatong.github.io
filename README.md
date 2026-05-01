@@ -88,7 +88,7 @@ published: true
 可复用 Blog 模板在：
 
 ```text
-_posts/2026-05-01-BLOG-TEMPLATE.md
+_posts/2026-05-01-TEMPLATE.md
 ```
 
 Blog 图片建议放在：
