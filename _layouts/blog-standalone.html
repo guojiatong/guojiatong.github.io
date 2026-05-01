@@ -1,0 +1,39 @@
+{% include base_path %}
+
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}">
+  <head>
+    <meta charset="utf-8">
+    {% include seo.html %}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
+    <link rel="stylesheet" href="{{ base_path }}/assets/css/blog-standalone.css">
+  </head>
+
+  <body class="blog-standalone">
+    <main class="blog-shell">
+      <article class="blog-article">
+        <header class="blog-header">
+          <a class="blog-author" href="{{ base_path }}/">
+            {% if site.author.avatar %}
+              <img class="blog-author__avatar" src="{{ base_path }}/images/{{ site.author.avatar }}" alt="{{ site.author.name | default: site.title }}">
+            {% endif %}
+            <span class="blog-author__name">{{ site.author.name | default: site.title }}</span>
+          </a>
+
+          {% if page.date and page.blog_index != true %}
+            <time class="blog-date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %-d, %Y" }}</time>
+          {% endif %}
+
+          {% if page.title %}
+            <h1 class="blog-title">{{ page.title }}</h1>
+          {% endif %}
+        </header>
+
+        <div class="{% if page.blog_index %}blog-index{% else %}blog-content{% endif %}">
+          {{ content }}
+        </div>
+      </article>
+    </main>
+  </body>
+</html>

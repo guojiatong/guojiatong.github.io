@@ -1,12 +1,24 @@
 ---
-layout: archive
+layout: blog-standalone
 title: "Blog"
 permalink: /posts/
-author_profile: true
+blog_index: true
 ---
 
 {% include base_path %}
 
-{% for post in site.posts %}
-  {% include archive-single.html %}
-{% endfor %}
+<p>Essays, reflections, and notes.</p>
+
+<ul class="blog-post-list">
+  {% for post in site.posts %}
+    {% unless post.published == false %}
+      <li class="blog-post-list__item">
+        <time class="blog-post-list__date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+        <a class="blog-post-list__title" href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
+        {% if post.excerpt %}
+          <p class="blog-post-list__excerpt">{{ post.excerpt | markdownify | strip_html | truncate: 180 }}</p>
+        {% endif %}
+      </li>
+    {% endunless %}
+  {% endfor %}
+</ul>

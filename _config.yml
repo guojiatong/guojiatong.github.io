@@ -240,12 +240,12 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
-      author_profile: true
+      layout: blog-standalone
+      author_profile: false
       read_time: true
-      comments: true
-      share: true
-      related: true
+      comments: false
+      share: false
+      related: false
   # _pages
   - scope:
       path: ""
