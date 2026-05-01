@@ -1,4 +1,5 @@
 ---
+layout: blog-standalone
 title: "Your Blog Post Title"
 date: 2026-05-01
 permalink: /posts/2026/05/your-blog-post-title/

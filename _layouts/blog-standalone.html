@@ -7,7 +7,7 @@
     {% include seo.html %}
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
-    <link rel="stylesheet" href="{{ base_path }}/assets/css/blog-standalone.css">
+    <link rel="stylesheet" href="{{ base_path }}/assets/css/blog-standalone.css?v={{ site.time | date: "%Y%m%d%H%M" }}">
   </head>
 
   <body class="blog-standalone">
