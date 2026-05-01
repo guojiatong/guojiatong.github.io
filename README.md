@@ -1,96 +1,182 @@
-# Academic Pages
-**Academic Pages is a GitHub Pages template for personal and professional portfolio-oriented websites.**
+# Jiatong Guo Personal Website
 
-![Academic Pages template example](images/homepage.png "Academic Pages template example")
+这是 Jiatong Guo 个人学术网站的源码仓库。
 
-# Getting Started
+- 网站地址：https://jiatongguo.top
+- GitHub 仓库：`guojiatong/guojiatong.github.io`
+- 当前主分支：`master`
+- 技术栈：Jekyll，基于 Academic Pages / Minimal Mistakes 模板定制
+- 部署方式：GitHub Pages，`CNAME` 提供自定义域名
 
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Click the "Use this template" button in the top right.
-1. On the "New repository" page, enter your public repository name as "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and add your content.
-1. Upload any files (like PDFs, .zip files, etc.) to the `files/` directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.
-1. Check status by going to the repository settings, in the "GitHub pages" section
-1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
+## 网站结构
 
-See more info at https://academicpages.github.io/
+| 路径 | 作用 |
+| --- | --- |
+| `_config.yml` | 全站配置：标题、域名、作者资料、collections、插件、Sass、permalink 等。修改后需要重启 Jekyll 服务。 |
+| `CNAME` | GitHub Pages 自定义域名，目前是 `jiatongguo.top`。 |
+| `_data/navigation.yml` | 顶部导航栏配置。目前包含 Publications、Research、News、Blog、MyLife、Contact。 |
+| `_pages/` | 主要页面目录。首页是 `_pages/about.md`，因为它设置了 `permalink: /`。 |
+| `_posts/` | Blog 文章目录。Blog 列表页路径是 `/posts/`。 |
+| `_publications/` | 论文 collection，由 `_pages/publications.html` 渲染。 |
+| `_talks/` 和 `_teaching/` | 演讲和教学 collection，保留自 Academic Pages。 |
+| `files/` | 对外下载文件，例如 `cv.pdf`、论文 PDF、BibTeX。 |
+| `images/` | 头像、favicon、项目图片和站点通用图片。 |
+| `images/blog/` | Blog 文章专用图片，部署时会随站点发布。 |
+| `_layouts/` 和 `_includes/` | Jekyll / Liquid 页面布局和可复用 HTML 片段。 |
+| `_sass/` 和 `assets/` | 样式、JavaScript、字体和前端静态资源。 |
+| `markdown_generator/` | 可选脚本和 notebook，用于从 TSV 等数据生成 publications 或 talks。 |
+| `talkmap/` 和 `talkmap.ipynb` | 演讲地图相关输出和生成 notebook。 |
 
-## Running locally
+## 常见修改位置
 
-When you are initially working on your website, it is very useful to be able to preview the changes locally before pushing them to GitHub. To work locally you will need to:
+个人信息、网站标题、侧边栏资料：`_config.yml`
 
-1. Clone the repository and made updates as detailed above.
+首页内容：`_pages/about.md`
 
-### Using a different IDE
-1. Make sure you have ruby-dev, bundler, and nodejs installed
-    
-    On most Linux distribution and [Windows Subsystem Linux](https://learn.microsoft.com/en-us/windows/wsl/about) the command is:
-    ```bash
-    sudo apt install ruby-dev ruby-bundler nodejs
-    ```
-    If you see error `Unable to locate package ruby-bundler`, `Unable to locate package nodejs `, run the following:
-    ```bash
-    sudo apt update && sudo apt upgrade -y
-    ```
-    then try run `sudo apt install ruby-dev ruby-bundler nodejs` again.
+顶部导航：`_data/navigation.yml`
 
-    On MacOS the commands are:
-    ```bash
-    brew install ruby
-    brew install node
-    gem install bundler
-    ```
-1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
+Research 页面：`_pages/research.md`
 
-    If you see file permission error like `Fetching bundler-2.6.3.gem ERROR:  While executing gem (Gem::FilePermissionError) You don't have write permissions for the /var/lib/gems/3.2.0 directory.` or `Bundler::PermissionError: There was an error while trying to write to /usr/local/bin.`
-    Install Gems Locally (Recommended):
-    ```bash
-    bundle config set --local path 'vendor/bundle'
-    ```
-    then try run `bundle install` again. If succeeded, you should see a folder called `vendor` and `.bundle`.
+News 页面：`_pages/news.md`
 
-1. Run `jekyll serve -l -H localhost` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change.
-    You may also try `bundle exec jekyll serve -l -H localhost` to ensure jekyll to use specific dependencies on your own local machine.
+Contact 页面：`_pages/contact.md`
 
-If you are running on Linux it may be necessary to install some additional dependencies prior to being able to run locally: `sudo apt install build-essential gcc make`
+论文条目：`_publications/*.md`
 
-## Using Docker
+Blog 文章：`_posts/*.md`
 
-Working from a different OS, or just want to avoid installing dependencies? You can use the provided `Dockerfile` to build a container that will run the site for you if you have [Docker](https://www.docker.com/) installed.
+可下载文件：`files/`
 
-You can build and execute the container by running the following command in the repository:
+图片资源：`images/`
+
+不要在 Markdown 中引用 `/Users/...` 这类本机绝对路径。部署到 GitHub Pages 后，这些路径会失效。文章图片应复制到 `images/` 下，再用站内路径引用。
+
+## Blog 写作流程
+
+Blog 文章使用 Jekyll 标准命名：
+
+```text
+_posts/YYYY-MM-DD-post-title.md
+```
+
+推荐 front matter：
+
+```yaml
+---
+title: "Post Title"
+date: YYYY-MM-DD
+permalink: /posts/YYYY/MM/post-slug/
+published: false
+tags:
+  - tag-one
+  - tag-two
+---
+```
+
+写草稿时保留：
+
+```yaml
+published: false
+```
+
+准备发布时，删除这一行或改成：
+
+```yaml
+published: true
+```
+
+可复用 Blog 模板在：
+
+```text
+_posts/2026-05-01-BLOG-TEMPLATE.md
+```
+
+Blog 图片建议放在：
+
+```text
+images/blog/post-slug/image-name.png
+```
+
+Markdown 中这样引用：
+
+```markdown
+![Alt text](/images/blog/post-slug/image-name.png)
+```
+
+## 本地开发
+
+项目依赖来自 `Gemfile`。macOS 自带 Ruby 版本通常偏旧，建议使用 Homebrew 的 Ruby 3.3。
+
+安装 Ruby 3.3：
 
 ```bash
-chmod -R 777 .
+brew install ruby@3.3
+```
+
+安装依赖：
+
+```bash
+PATH="/opt/homebrew/opt/ruby@3.3/bin:$PATH" bundle install
+```
+
+启动本地预览：
+
+```bash
+PATH="/opt/homebrew/opt/ruby@3.3/bin:$PATH" bundle exec jekyll serve -l -H localhost
+```
+
+打开：
+
+```text
+http://localhost:4000
+```
+
+一次性构建：
+
+```bash
+PATH="/opt/homebrew/opt/ruby@3.3/bin:$PATH" bundle exec jekyll build
+```
+
+如果只想验证构建、不想把生成结果写入仓库目录：
+
+```bash
+PATH="/opt/homebrew/opt/ruby@3.3/bin:$PATH" bundle exec jekyll build --destination /tmp/mywebsite-site
+```
+
+## Docker 方式
+
+如果本机安装了 Docker，可以使用仓库中的 `Dockerfile` 和 `docker-compose.yaml`：
+
+```bash
 docker compose up
 ```
 
-You should now be able to access the website from `localhost:4000`.
+然后打开：
 
-### Using the DevContainer in VS Code
+```text
+http://localhost:4000
+```
 
-If you are using [Visual Studio Code](https://code.visualstudio.com/) you can use the [Dev Container](https://code.visualstudio.com/docs/devcontainers/containers) that comes with this Repository. Normally VS Code detects that a development coontainer configuration is available and asks you if you want to use the container. If this doesn't happen you can manually start the container by **F1->DevContainer: Reopen in Container**. This restarts your VS Code in the container and automatically hosts your academic page locally on http://localhost:4000. All changes will be updated live to that page after a few seconds.
+## JavaScript 资源
 
-# Maintenance
+主要脚本已编译到 `assets/js/main.min.js`。如果修改了 `assets/js/` 下的源码，重新构建压缩文件：
 
-Bug reports and feature requests to the template should be [submitted via GitHub](https://github.com/academicpages/academicpages.github.io/issues/new/choose). For questions concerning how to style the template, please feel free to start a [new discussion on GitHub](https://github.com/academicpages/academicpages.github.io/discussions).
+```bash
+npm install
+npm run build:js
+```
 
-This repository was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License (see LICENSE.md). It is currently being maintained by [Robert Zupko](https://github.com/rjzupkoii) and additional maintainers would be welcomed.
+## 发布前检查
 
-## Bugfixes and enhancements
+发布到 GitHub Pages 前建议检查：
 
-If you have bugfixes and enhancements that you would like to submit as a pull request, you will need to [fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) this repository as opposed to using it as a template. This will also allow you to [synchronize your copy](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) of template to your fork as well.
+- `bundle exec jekyll build` 能成功。
+- 文章图片没有引用本机绝对路径。
+- 草稿文章保留 `published: false`。
+- 准备发布的文章有正确的 `date`、`permalink` 和 `tags`。
+- `_config.yml` 中的网站 URL 和作者信息符合当前状态。
+- `CNAME` 仍然是目标自定义域名。
 
-Unfortunately, one logistical issue with a template theme like Academic Pages that makes it a little tricky to get bug fixes and updates to the core theme. If you use this template and customize it, you will probably get merge conflicts if you attempt to synchronize. If you want to save your various .yml configuration files and markdown files, you can delete the repository and fork it again. Or you can manually patch.
+## 模板来源
 
----
-<div align="center">
-    
-![pages-build-deployment](https://github.com/academicpages/academicpages.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)
-[![GitHub contributors](https://img.shields.io/github/contributors/academicpages/academicpages.github.io.svg)](https://github.com/academicpages/academicpages.github.io/graphs/contributors)
-[![GitHub release](https://img.shields.io/github/v/release/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io/releases/latest)
-[![GitHub license](https://img.shields.io/github/license/academicpages/academicpages.github.io?color=blue)](https://github.com/academicpages/academicpages.github.io/blob/master/LICENSE)
-
-[![GitHub stars](https://img.shields.io/github/stars/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io)
-[![GitHub forks](https://img.shields.io/github/forks/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io/fork)
-</div>
+本网站基于 Academic Pages 定制。Academic Pages 派生自 Minimal Mistakes Jekyll Theme。本仓库 README 已改为当前个人网站的维护说明，不再是上游模板的通用创建指南。
