@@ -8,6 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
     <link rel="stylesheet" href="{{ base_path }}/assets/css/blog-standalone.css?v={{ site.time | date: "%Y%m%d%H%M" }}">
+    {% unless page.blog_index %}
+      <script defer src="https://cdn.busuanzi.cc/busuanzi/3.6.9/busuanzi.min.js"></script>
+    {% endunless %}
   </head>
 
   <body class="blog-standalone">
@@ -33,6 +36,12 @@
         <div class="{% if page.blog_index %}blog-index{% else %}blog-content{% endif %}">
           {{ content }}
         </div>
+
+        {% unless page.blog_index %}
+          <footer class="blog-view-count" aria-label="Page view count">
+            浏览总量 <span id="busuanzi_page_pv">加载中...</span> 次
+          </footer>
+        {% endunless %}
       </article>
     </main>
   </body>

@@ -201,6 +201,19 @@ body.blog-standalone {
   font-size: 0.95rem;
 }
 
+.blog-view-count {
+  margin-top: 2.25rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--blog-border);
+  color: var(--blog-muted);
+  font-size: 0.95rem;
+}
+
+.blog-view-count span {
+  color: var(--blog-text);
+  font-variant-numeric: tabular-nums;
+}
+
 @media (max-width: 700px) {
   .blog-shell {
     padding: 20px 18px 44px;
