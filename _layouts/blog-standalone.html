@@ -39,7 +39,11 @@
 
         {% unless page.blog_index %}
           <footer class="blog-view-count" aria-label="Page view count">
-            浏览总量 <span id="busuanzi_page_pv">加载中...</span> 次
+            {% if page.lang == "en" %}
+              Total views <span id="busuanzi_page_pv">Loading...</span>
+            {% else %}
+              浏览总量 <span id="busuanzi_page_pv">加载中...</span> 次
+            {% endif %}
           </footer>
         {% endunless %}
       </article>
