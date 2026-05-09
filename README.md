@@ -166,6 +166,21 @@ npm install
 npm run build:js
 ```
 
+## Cloudflare Web Analytics
+
+网站已接入 Cloudflare Web Analytics 的 Jekyll 配置入口。Cloudflare 的站点 token 是前端公开 token，不是账号 API token；不要把 Cloudflare API token、密钥或账号凭据写入仓库。
+
+在 Cloudflare Dashboard 的 Web Analytics 里添加站点 `jiatongguo.top`，复制 JS snippet 中 `data-cf-beacon` 的 `token` 值，然后填入 `_config.yml`：
+
+```yaml
+analytics:
+  provider: "cloudflare"
+  cloudflare:
+    token: "YOUR_CLOUDFLARE_WEB_ANALYTICS_TOKEN"
+```
+
+脚本只会在 production 构建且 token 非空时注入。主站 layout 和独立 Blog layout 都会使用同一份配置。
+
 ## 发布前检查
 
 发布到 GitHub Pages 前建议检查：

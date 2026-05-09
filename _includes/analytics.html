@@ -9,6 +9,8 @@
   {% include /analytics-providers/google-analytics-4.html %}
 {% when "custom" %}
   {% include /analytics-providers/custom.html %}
+{% when "cloudflare" %}
+  {% include /analytics-providers/cloudflare.html %}
 {% endcase %}
 
 {% endif %}

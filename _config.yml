@@ -153,9 +153,11 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider               : "cloudflare" # false (default), "google", "google-universal", "google-analytics-4", "custom", "cloudflare"
   google:
     tracking_id          :
+  cloudflare:
+    token                : "17f799cdb8d540d0863440e341d852e2" # Public Web Analytics token from the Cloudflare JS snippet, not an API token.
 
 
 # Reading Files
