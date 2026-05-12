@@ -13,6 +13,7 @@ author_profile: true
 * [Sept] Got my Third Undergraduate National Scholarship
 * [Sept 02] Started my exchange student life at UC Santa Barbara!
 * [July 07] Started my RA work at New York University Shanghai!
+* [July 04] My first paper (co-first author) got accepted by IEEE TENCON 2024!
 
 ## 2023
 * [Sept] Got my second Undergraduate National Scholarship
@@ -21,7 +22,7 @@ author_profile: true
 * [Sept] Got my first Undergraduate National Scholarship
 
 ## 2021
-* [June] Graduated from Sanmenxia Foreign Language Senior High School and admitted by Huazhong University of Science and Technology
+* [June] Graduated from Sanmenxia Foreign Language Senior High School (with scoring 673/750 in Henan Province College Entrance Examination)
 
 ## 2003
-* [Aug] I was born in Sanmenxia, Henan, China! Birth-weight: 4 kilograms :)
+* [Aug] I was born in Sanmenxia, Henan, China! Birth-weight: 4 kilograms ;)
