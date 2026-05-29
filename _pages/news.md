@@ -4,6 +4,9 @@ title: "Jiatong's News"
 author_profile: true
 ---
 
+## 2026
+* [May 28] Passed QE and became a PhD candidate!
+
 ## 2025
 * [Aug 05] Arrived at Boston!
 * [June 20] Graduated from Huazhong University of Science and Technology with Outstanding Graduate Honor
