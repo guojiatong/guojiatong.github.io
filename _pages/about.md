@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-**First-year PhD Student**
+**PhD Candidate @ BU**
 
 *Boston University, Department of Electrical and Computer Engineering*
 
@@ -15,7 +15,7 @@ Welcome to my website!
 
 I’m Jiatong Guo, born in August 2003 in Henan, China.
 
-Currently I’m a first-year PhD student at Boston University, advised by Prof. [Eshed Ohn-bar](https://scholar.google.com/citations?hl=en&user=p9zVBV4AAAAJ&view_op=list_works&sortby=pubdate). Earlier, I earned my Bachelor of Engineering from Huazhong University of Science and Technology (Wuhan, China) under the supervision of Prof. [Chao Wang](https://ieeexplore.ieee.org/author/37088353491). Besides, during my fourth undergraduate year, I studied at the University of California, Santa Barbara, under the supervision of Prof. [Zheng Zhang](https://scholar.google.com/citations?hl=en&user=qeahx5QAAAAJ&view_op=list_works&sortby=pubdate). 
+Currently I’m a PhD candidate at Boston University, advised by Prof. [Eshed Ohn-bar](https://scholar.google.com/citations?hl=en&user=p9zVBV4AAAAJ&view_op=list_works&sortby=pubdate). Earlier, I earned my Bachelor of Engineering from Huazhong University of Science and Technology (Wuhan, China) under the supervision of Prof. [Chao Wang](https://ieeexplore.ieee.org/author/37088353491). Besides, during my fourth undergraduate year, I studied at the University of California, Santa Barbara, under the supervision of Prof. [Zheng Zhang](https://scholar.google.com/citations?hl=en&user=qeahx5QAAAAJ&view_op=list_works&sortby=pubdate).
 
 
 Research Interests
@@ -27,7 +27,7 @@ Machine Learning, Computer Vision, Human-Machine Interaction, Robotics, Neuromor
 Education Experience
 ------
 (1) Sept. 2025 - Present: **Boston University (BU)**
-* **Ph.D. Student** in Computer Engineering
+* **Ph.D. Candidate** in Computer Engineering
 * Advisor: Prof. [Eshed Ohn-bar](https://scholar.google.com/citations?hl=en&user=p9zVBV4AAAAJ&view_op=list_works&sortby=pubdate)
 
 (2) Sept. 2024 - Jun. 2025: **University of California, Santa Barbara (UCSB)**
