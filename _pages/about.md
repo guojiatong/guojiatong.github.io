@@ -20,7 +20,7 @@ Currently I’m a PhD candidate at Boston University, advised by Prof. [Eshed Oh
 
 Research Interests
 ------
-Machine Learning, Computer Vision, Human-Machine Interaction, Robotics, Neuromorphic Computing 
+Machine Learning, Computer Vision, Neuroscience
 
 
 
