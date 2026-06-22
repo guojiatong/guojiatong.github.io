@@ -24,7 +24,7 @@ main:
     url: /mylife/
 
   - title: "CV"
-    url: /cv/
+    url: /files/cv.pdf
 
   - title: "Contact"
     url: /contact/
