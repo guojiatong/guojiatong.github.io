@@ -22,14 +22,14 @@ repository               : "guojiatong/guojiatong.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "jiatongguo2.png"
+  avatar           : "Selfie_NYC_round.png"
   name             : "Jiatong Guo"
   pronouns         : "he/him"
   bio              : "PhD Candidate @ BU <br> <br> Bachelor of Engineering, Huazhong University of Science and Technology, China"
   location         : "Boston, Massachusetts, USA"
-  employer         : "Boston University"
+  employer         :
   uri              : # URL
-  email            : "gjt@bu.edu" 
+  email            :
 
   # Academic websites
   academia         : # URL
