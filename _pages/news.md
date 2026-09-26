@@ -7,6 +7,7 @@ author_profile: true
 ## 2026
 * [Sept 22] Joined the Boston University Chinese men's basketball team
 * [May 28] Passed QE and became a PhD candidate!
+* [May 21] Joined Prof. Stangl's lab to collaborate on a VR-based neuroscience project
 
 ## 2025
 * [Aug 05] Arrived at Boston!
