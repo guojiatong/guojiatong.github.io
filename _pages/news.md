@@ -5,6 +5,7 @@ author_profile: true
 ---
 
 ## 2026
+* [Sept 22] Joined the Boston University Chinese men's basketball team
 * [May 28] Passed QE and became a PhD candidate!
 
 ## 2025
