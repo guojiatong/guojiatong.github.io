@@ -46,7 +46,7 @@ Education Experience
 Work Experience
 ------
 (1) July - Sept. 2024: **New York University Shanghai (NYUSH)**
-- Role: Research Assistant advised by Prof. Zhuocheng Xiao
+- Role: Research Assistant advised by Prof. [Zhuocheng Xiao](https://shanghai.nyu.edu/academics/faculty/directory/zhuo-cheng-xiao)
 - Research Keywords: Computational Neuroscience, Neuronal Oscillation, Spiking Neural Network, Mouse Visual Cortex
 - Designed a scalable spiking neuron network in MATLAB to model a small copy of the mouse visual cortex L2/3, generating multiband neuronal oscillations (gamma, beta, alpha, etc.) using data from the Allen Institute (projection probability, synaptic strength, etc.)
 - Conducted extensive simulations to explore the systematic relationship between biological parameters and the various types of neuronal oscillations observed in the network
