@@ -1,14 +1,8 @@
 {
-	"name": "OOjs UI icon academic-progressive",
+	"name": "Jiatong Guo",
 	"icons": [
 		{
-			"src": "/images/favicon-192x192.png",
-			"sizes": "192x192",
-			"type": "image/png"
-		},
-		{
-			"src": "/images/favicon-512x512.png",
-			"sizes": "512x512",
+			"src": "/images/Selfie_NYC_round.png",
 			"type": "image/png"
 		}
 	]
