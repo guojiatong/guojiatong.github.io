@@ -24,7 +24,7 @@ Machine Learning, Computer Vision, Neuroscience, Robotics
 
 
 
-Education Experience
+Education
 ------
 (1) Sept. 2025 - Present: **Boston University (BU)**
 * **Ph.D. Candidate** in Computer Engineering
