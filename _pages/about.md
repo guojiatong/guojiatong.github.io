@@ -7,9 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-**PhD Candidate @ BU**
-
-*Boston University, Department of Electrical and Computer Engineering*
+**PhD Candidate @&#x20;**_**Boston University**, Department of Electrical and Computer Engineering_
 
 Welcome to my website!
 
