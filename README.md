@@ -14,7 +14,7 @@
 | --- | --- |
 | `_config.yml` | 全站配置：标题、域名、作者资料、collections、插件、Sass、permalink 等。修改后需要重启 Jekyll 服务。 |
 | `CNAME` | GitHub Pages 自定义域名，目前是 `jiatongguo.top`。 |
-| `_data/navigation.yml` | 顶部导航栏配置。目前包含 Publications、Research、News、Blog、MyLife、Contact。 |
+| `_data/navigation.yml` | 顶部导航栏配置。目前包含 Publications、Research、News、Blog、MyLife、CV。 |
 | `_pages/` | 主要页面目录。首页是 `_pages/about.md`，因为它设置了 `permalink: /`。 |
 | `_posts/` | Blog 文章目录。Blog 列表页路径是 `/posts/`。 |
 | `_publications/` | 论文 collection，由 `_pages/publications.html` 渲染。 |
@@ -38,8 +38,6 @@
 Research 页面：`_pages/research.md`
 
 News 页面：`_pages/news.md`
-
-Contact 页面：`_pages/contact.md`
 
 论文条目：`_publications/*.md`
 
