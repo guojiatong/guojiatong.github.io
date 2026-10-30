@@ -9,9 +9,7 @@ redirect_from:
 
 **PhD Candidate @&#x20;**_**Boston University**, Department of Electrical and Computer Engineering_
 
-Welcome to my website!
-
-I’m Jiatong Guo, born in August 2003 in Henan, China.
+Welcome! I’m Jiatong Guo, born in August 2003 in Henan Sanmenxia, China.
 
 Currently I’m a PhD candidate at Boston University, advised by Prof. [Eshed Ohn-bar](https://scholar.google.com/citations?hl=en&user=p9zVBV4AAAAJ&view_op=list_works&sortby=pubdate). Earlier, I earned my Bachelor of Engineering from Huazhong University of Science and Technology (Wuhan, China) under the supervision of Prof. [Chao Wang](https://ieeexplore.ieee.org/author/37088353491). Besides, during my fourth undergraduate year, I studied at the University of California, Santa Barbara, under the supervision of Prof. [Zheng Zhang](https://scholar.google.com/citations?hl=en&user=qeahx5QAAAAJ&view_op=list_works&sortby=pubdate).
 
