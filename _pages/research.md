@@ -13,7 +13,7 @@ I have several research experience in the following directions:
 
 ## Tensor-based Hardware-Efficient On-device Training Framework with FPGA In-BRAM Computation
 
-<img src = "/images/bram.png" width="300" height="200"/>
+<img loading="eager" decoding="async" src = "/images/bram.png" width="300" height="200"/>
 
 [Sept 2024 - June 2025, UC Santa Barbara] **Voluntary Researcher advised by Prof. Zheng Zhang**
 - Keywords: Compute-in-Memory, FPGA In-BRAM Computation, Tensor-Train Decomposition 
@@ -23,7 +23,7 @@ Our goal is to develop a tensor-based hardware-efficient on-device training fram
 
 ## How Inhibitory Neural Circuits Govern Multi-band Neuronal Oscillations
 
-<img src = "/images/network.png" width="300" height="200"/>
+<img loading="lazy" decoding="async" src = "/images/network.png" width="300" height="200"/>
 
 [July - Sept 2024, New York University Shanghai] **Research Assistant advised by Prof. Zhuocheng Xiao**
 - Keywords: Neuronal Oscillation, Spiking Neural Network, Computational Neuroscience
@@ -33,7 +33,7 @@ Our goal is to develop a tensor-based hardware-efficient on-device training fram
      
 ## Reconfigurable Neuromorphic Hardware Design for Spiking Neuron Model
 
-<img src = "/images/neuron.png" width="300" height="200"/>
+<img loading="lazy" decoding="async" src = "/images/neuron.png" width="300" height="200"/>
 
 [Feb 2023 - July 2024, HUST] **Five-person Research Team Leader advised by Prof. Chao Wang**
 - Keywords: Neuromorphic Hardware Design, Spiking Neuron Model, Hodgkin-Huxley Neuron, Adaptive Exponential Neuron, CORDIC
@@ -45,7 +45,7 @@ Our goal is to develop a tensor-based hardware-efficient on-device training fram
 
 ## International Contest of Autonomous Running Robots
 
-<img src = "/images/robot.png" width="300" height="200"/>
+<img loading="lazy" decoding="async" src = "/images/robot.png" width="300" height="200"/>
 
 [July - Aug 2023] **Four-person Team Leader**
 - Developed surroundings recognition algorithms in Python, allowing the robot to autonomously identify its environment and execute corresponding actions to overcome obstacles such as single-plank bridges, stairs, and minefields
@@ -53,7 +53,7 @@ Our goal is to develop a tensor-based hardware-efficient on-device training fram
 
 ## Digital Image Processing System Based on PYNQ-Z2 FPGA
 
-<img src = "/images/fpga.png" width="300" height="200"/>
+<img loading="lazy" decoding="async" src = "/images/fpga.png" width="300" height="200"/>
 
 [Dec 2023 - Jan 2024] **Three-person Team Leader**
 - Developed a image processing system on FPGA, capable of performing image enlargement, edge extraction, erosion, and dilation, with output displayed via HDMI

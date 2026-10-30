@@ -46,4 +46,4 @@ Sutton 在 2019 年写的 AI 发展七十年的苦涩教训指出，长期来看
 
 这条路比任何一个 benchmark 都更长，但我相信，也更值得走。
 
-![computer vision](/images/blog/computer-vision-bitter-lesson/figure-1-computer-vision.png)
+![computer vision](/images/blog/computer-vision-bitter-lesson/figure-1-computer-vision.png){: width="1448" height="1086" loading="eager" decoding="async"}

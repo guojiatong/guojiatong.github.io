@@ -49,4 +49,4 @@ It will simply exist in another form: no longer standing outside the world to an
 
 That path is longer than any benchmark, but I believe it is also more worth pursuing.
 
-![computer vision](/images/blog/computer-vision-bitter-lesson/figure-1-computer-vision.png)
+![computer vision](/images/blog/computer-vision-bitter-lesson/figure-1-computer-vision.png){: width="1448" height="1086" loading="eager" decoding="async"}

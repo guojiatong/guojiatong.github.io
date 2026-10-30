@@ -71,12 +71,19 @@ function updateNav() {
 
 // Window listeners
 
-$(window).on('resize', function () {
-  updateNav();
-});
-screen.orientation.addEventListener("change", function () {
-  updateNav();
-});
+var navFrame = null;
+function scheduleNavUpdate() {
+  if (navFrame !== null) return;
+  navFrame = window.requestAnimationFrame(function () {
+    navFrame = null;
+    updateNav();
+  });
+}
+
+$(window).on('resize', scheduleNavUpdate);
+if (screen.orientation) {
+  screen.orientation.addEventListener("change", scheduleNavUpdate);
+}
 
 $btn.on('click', function () {
   $hlinks.toggleClass('hidden');
