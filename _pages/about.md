@@ -32,15 +32,63 @@ Research Interests
 
 Education
 ------
+
+<style>
+  .institution-entry {
+    display: grid;
+    grid-template-columns: clamp(48px, 7vw, 72px) minmax(0, 1fr);
+    gap: 1em;
+    align-items: start;
+    margin-bottom: 1.5em;
+  }
+  .institution-entry__logo img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1;
+    object-fit: contain;
+  }
+  .institution-entry__logo .institution-logo--ucsb {
+    object-fit: cover;
+  }
+  .institution-entry__details > :last-child {
+    margin-bottom: 0;
+  }
+</style>
+
+<div class="institution-entry" markdown="1">
+<div class="institution-entry__logo">
+  <img src="/images/institutions/bu.svg" alt="Boston University seal" width="72" height="72" loading="lazy">
+</div>
+<div class="institution-entry__details" markdown="1">
+
 (1) Sept. 2025 - Present: **Boston University (BU)**
 * **Ph.D. Candidate** in Computer Engineering
 * Advisor: Prof. [Eshed Ohn-bar](https://scholar.google.com/citations?hl=en&user=p9zVBV4AAAAJ&view_op=list_works&sortby=pubdate)
+
+</div>
+</div>
+
+<div class="institution-entry" markdown="1">
+<div class="institution-entry__logo">
+  <img class="institution-logo--ucsb" src="/images/institutions/ucsb.gif" alt="University of California, Santa Barbara seal" width="72" height="72" loading="lazy">
+</div>
+<div class="institution-entry__details" markdown="1">
 
 (2) Sept. 2024 - Jun. 2025: **University of California, Santa Barbara (UCSB)**
 * **One-year Graduate Academic Preparation Program (Non-degree)**
 * GPA 3.95/4 in Electrical and Computer Engineering
 * Courses (Graduate-level): Tensor Computation for Machine Learning (A), Machine Learning for Bio-images (A), Neurally Inspired Computing Systems (A), Uncertainty Quantification and Scientific ML (A), Robustness in Machine Learning (A), Imaging System (A-)
 * Advisor: Prof. [Zheng Zhang](https://scholar.google.com/citations?hl=en&user=qeahx5QAAAAJ&view_op=list_works&sortby=pubdate)
+
+</div>
+</div>
+
+<div class="institution-entry" markdown="1">
+<div class="institution-entry__logo">
+  <img src="/images/institutions/hust.png" alt="Huazhong University of Science and Technology logo" width="72" height="72" loading="lazy">
+</div>
+<div class="institution-entry__details" markdown="1">
 
 (3) Sept. 2021 - Jun. 2025: **Huazhong University of Science and Technology (HUST)**
 * **Bachelor of Engineering** in Integrated Circuit and System Design 
@@ -49,14 +97,27 @@ Education
 * HUST Outstanding Graduate (top 5% in HUST, June 2025)
 * Advisor: Prof. [Chao Wang](https://ieeexplore.ieee.org/author/37088353491)
 
+</div>
+</div>
+
 Work Experience
 ------
+
+<div class="institution-entry" markdown="1">
+<div class="institution-entry__logo">
+  <img src="/images/institutions/nyush.png" alt="NYU Shanghai logo" width="72" height="72" loading="lazy">
+</div>
+<div class="institution-entry__details" markdown="1">
+
 (1) July - Sept. 2024: **New York University Shanghai (NYUSH)**
 - Role: Research Assistant advised by Prof. [Zhuocheng Xiao](https://shanghai.nyu.edu/academics/faculty/directory/zhuo-cheng-xiao)
 - Research Keywords: Computational Neuroscience, Neuronal Oscillation, Spiking Neural Network, Mouse Visual Cortex
 - Designed a scalable spiking neuron network in MATLAB to model a small copy of the mouse visual cortex L2/3, generating multiband neuronal oscillations (gamma, beta, alpha, etc.) using data from the Allen Institute (projection probability, synaptic strength, etc.)
 - Conducted extensive simulations to explore the systematic relationship between biological parameters and the various types of neuronal oscillations observed in the network
 - Research Document: [How Inhibitory Neural Circuits Govern Multiband Neuronal Oscillations](https://drive.google.com/file/d/1pqIziOuovjc3ZIlvWkT5Ww1aOIFoRuK7/view)
+
+</div>
+</div>
 
 
 Honors and Awards
