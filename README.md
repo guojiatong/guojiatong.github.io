@@ -162,16 +162,18 @@ http://localhost:4000
 ```bash
 npm install
 npm run build:js
+```
 
 修改页脚或导航脚本后，运行本地回归检查，并提交重新生成的 `assets/js/main.min.js`：
 
-    npm test
-    bundle exec ruby tests/asset_loading_test.rb
+```bash
+npm test
+bundle exec ruby tests/asset_loading_test.rb
+```
 
 公式、Plotly 和 Mermaid 库仅在页面使用对应内容时加载；也可以通过页面 front matter 的 `mathjax: true`、`plotly: true`、`mermaid: true` 显式启用。内容图片的 `width`、`height` 用于预留原比例空间，首张图片立即加载，其余图片使用浏览器原生延迟加载。
 
 Blog 样式使用稳定 URL，与主站样式一样遵循浏览器和 GitHub Pages 的正常 HTTP 缓存，不因无关页面重新部署而更换时间戳。
-```
 
 ## Cloudflare Web Analytics
 
