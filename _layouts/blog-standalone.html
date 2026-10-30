@@ -9,9 +9,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
     <link rel="stylesheet" href="{{ base_path }}/assets/css/blog-standalone.css">
-    {% unless page.blog_index %}
-      <script defer src="https://cdn.busuanzi.cc/busuanzi/3.6.9/busuanzi.min.js"></script>
-    {% endunless %}
   </head>
 
   <body class="blog-standalone">
@@ -41,11 +38,36 @@
         {% unless page.blog_index %}
           <footer class="blog-view-count" aria-label="Page view count">
             {% if page.lang == "en" %}
-              Total views <span id="busuanzi_page_pv">Loading...</span>
+              Total views <span id="busuanzi_page_pv" data-unavailable="View count is temporarily unavailable. Please try again later.">Loading...</span>
             {% else %}
-              浏览总量 <span id="busuanzi_page_pv">加载中...</span> 次
+              浏览总量 <span id="busuanzi_page_pv" data-unavailable="暂时无法获取浏览量，请稍后再试">加载中...</span> 次
             {% endif %}
           </footer>
+          <script data-blog-view-count>
+            (function () {
+              const counter = document.getElementById("busuanzi_page_pv");
+              const controller = new AbortController();
+              const timeout = setTimeout(function () { controller.abort(); }, 8000);
+
+              fetch("https://cdn.busuanzi.cc/api.php", {
+                method: "POST",
+                body: JSON.stringify({ url: window.location.href, referrer: document.referrer }),
+                signal: controller.signal
+              }).then(function (response) {
+                if (!response.ok) throw new Error("View count request failed");
+                return response.json();
+              }).then(function (data) {
+                const count = String(data.busuanzi_page_pv);
+                if (!/^\d+$/.test(count)) throw new Error("Invalid view count");
+                counter.textContent = count;
+              }).catch(function () {
+                counter.textContent = "—";
+                counter.title = counter.dataset.unavailable;
+              }).finally(function () {
+                clearTimeout(timeout);
+              });
+            })();
+          </script>
         {% endunless %}
       </article>
     </main>
