@@ -108,18 +108,15 @@ $(document).ready(function () {
   const bumpIt = function () {
     $body.css("margin-bottom", $footer.outerHeight(true));
   };
-  let footerFrame = null;
+  let footerTimer = null;
   const scheduleFooterUpdate = function () {
-    if (footerFrame !== null) return;
-    footerFrame = window.requestAnimationFrame(function () {
-      footerFrame = null;
+    if (footerTimer !== null) return;
+    footerTimer = window.setTimeout(function () {
+      footerTimer = null;
       bumpIt();
-    });
+    }, 250);
   };
   $(window).on("resize", scheduleFooterUpdate);
-  if (window.ResizeObserver && $footer.length) {
-    new window.ResizeObserver(scheduleFooterUpdate).observe($footer[0]);
-  }
   bumpIt();
 
   // FitVids init

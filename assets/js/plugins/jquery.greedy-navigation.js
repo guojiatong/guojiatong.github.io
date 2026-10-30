@@ -71,18 +71,13 @@ function updateNav() {
 
 // Window listeners
 
-var navFrame = null;
-function scheduleNavUpdate() {
-  if (navFrame !== null) return;
-  navFrame = window.requestAnimationFrame(function () {
-    navFrame = null;
+$(window).on('resize', function () {
+  updateNav();
+});
+if (screen.orientation) {
+  screen.orientation.addEventListener("change", function () {
     updateNav();
   });
-}
-
-$(window).on('resize', scheduleNavUpdate);
-if (screen.orientation) {
-  screen.orientation.addEventListener("change", scheduleNavUpdate);
 }
 
 $btn.on('click', function () {

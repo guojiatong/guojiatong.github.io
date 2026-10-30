@@ -4,7 +4,7 @@ const path = require("node:path");
 const test = require("node:test");
 const vm = require("node:vm");
 
-test("footer updates initially, coalesces resizes and observes content height", () => {
+test("footer updates initially and batches resizes without a recurring timer", () => {
   const source = fs.readFileSync(path.join(__dirname, "../assets/js/_main.js"), "utf8");
   const start = source.indexOf("  const $body =");
   const end = source.indexOf("  // FitVids init", start);
@@ -13,7 +13,6 @@ test("footer updates initially, coalesces resizes and observes content height", 
   const margins = [];
   let height = 80;
   let resize;
-  let observer;
   const footerElement = {};
   const footer = { 0: footerElement, length: 1, outerHeight: () => height };
   const body = { css: (property, value) => {
@@ -21,10 +20,10 @@ test("footer updates initially, coalesces resizes and observes content height", 
     margins.push(value);
   } };
   const window = {
-    requestAnimationFrame(callback) { frames.push(callback); return frames.length; },
-    ResizeObserver: class {
-      constructor(callback) { observer = callback; }
-      observe(element) { assert.equal(element, footerElement); }
+    setTimeout(callback, delay) {
+      assert.equal(delay, 250);
+      frames.push(callback);
+      return frames.length;
     },
   };
   const $ = (target) => {
@@ -44,30 +43,26 @@ test("footer updates initially, coalesces resizes and observes content height", 
   frames.shift()();
   assert.deepEqual(margins, [80, 120]);
   height = 160;
-  observer();
+  resize();
   frames.shift()();
   assert.deepEqual(margins, [80, 120, 160]);
 });
 
-test("navigation batches resize events and supports browsers without screen.orientation", () => {
+test("navigation preserves immediate resize updates without screen.orientation", () => {
   const source = fs.readFileSync(path.join(__dirname, "../assets/js/plugins/jquery.greedy-navigation.js"), "utf8");
-  const start = source.indexOf("var navFrame");
+  const start = source.indexOf("$(window).on('resize'");
   const end = source.indexOf("$btn.on", start);
   assert.ok(start >= 0 && end > start);
-  const frames = [];
   let resize;
   let updates = 0;
-  const window = { requestAnimationFrame(callback) { frames.push(callback); return frames.length; } };
+  const window = {};
   const $ = () => ({ on(event, callback) {
     assert.equal(event, "resize");
     resize = callback;
   } });
   vm.runInNewContext(source.slice(start, end), { $, window, screen: {}, updateNav: () => updates++ });
   resize(); resize(); resize();
-  assert.equal(frames.length, 1);
-  frames.shift()();
-  assert.equal(updates, 1);
+  assert.equal(updates, 3);
   resize();
-  frames.shift()();
-  assert.equal(updates, 2);
+  assert.equal(updates, 4);
 });
