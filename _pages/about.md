@@ -116,7 +116,7 @@ Work Experience
 </div>
 
 
-Honors and Awards
+Awards
 ------
 * BU CISE PhD Scholar Award (3/30+ in 2025 BU CISE admitted PhD students, Apr 2025)
 * HUST Outstanding Graduate (top 5% in HUST, June 2025)
