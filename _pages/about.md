@@ -72,7 +72,7 @@ Education
 <div class="institution-entry__details" markdown="1">
 
 (2) Sept. 2024 - Jun. 2025: **University of California, Santa Barbara (UCSB)**
-* **One-year Graduate Academic Preparation Program (Non-degree)**
+* **Graduate Academic Preparation Program (On-site, Non-degree)**
 * GPA 3.95/4 in Electrical and Computer Engineering
 * Courses (Graduate-level): Tensor Computation for Machine Learning (A), Machine Learning for Bio-images (A), Neurally Inspired Computing Systems (A), Uncertainty Quantification and Scientific ML (A), Robustness in Machine Learning (A), Imaging System (A-)
 * Advisor: Prof. [Zheng Zhang](https://scholar.google.com/citations?hl=en&user=qeahx5QAAAAJ&view_op=list_works&sortby=pubdate)
