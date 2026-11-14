@@ -90,7 +90,6 @@ Education
 * **Bachelor of Engineering** in Integrated Circuit and System Design 
 * GPA 3.93/4 (92.3/100), ranking 2/33 (in Elite Class of School of Optical and Electronic Information) 
 * Undergraduate National Scholarship (top 0.2% Nation-wide, 2022 & 2023 & 2024)
-* HUST Outstanding Graduate (top 5% in HUST, June 2025)
 * Advisor: Prof. [Chao Wang](https://ieeexplore.ieee.org/author/37088353491)
 
 </div>
