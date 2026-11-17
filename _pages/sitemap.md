@@ -10,7 +10,8 @@ author_profile: true
 A list of all the posts and pages found on the site. For you robots out there is an [XML version]({{ base_path }}/sitemap.xml) available for digesting as well.
 
 <h2>Pages</h2>
-{% for post in site.pages %}
+{% assign sitemap_pages = site.pages | where_exp: "entry", "entry.template_sample != true" %}
+{% for post in sitemap_pages %}
   {% include archive-single.html %}
 {% endfor %}
 
@@ -19,19 +20,14 @@ A list of all the posts and pages found on the site. For you robots out there is
   {% include archive-single.html %}
 {% endfor %}
 
-{% capture written_label %}'None'{% endcapture %}
-
 {% for collection in site.collections %}
-{% unless collection.output == false or collection.label == "posts" %}
-  {% capture label %}{{ collection.label }}{% endcapture %}
-  {% if label != written_label %}
-  <h2>{{ label }}</h2>
-  {% capture written_label %}{{ label }}{% endcapture %}
-  {% endif %}
-{% endunless %}
-{% for post in collection.docs %}
   {% unless collection.output == false or collection.label == "posts" %}
-  {% include archive-single.html %}
+    {% assign sitemap_docs = collection.docs | where_exp: "entry", "entry.template_sample != true" %}
+    {% if sitemap_docs.size > 0 or collection.docs.size == 0 %}
+      <h2>{{ collection.label }}</h2>
+      {% for post in sitemap_docs %}
+        {% include archive-single.html %}
+      {% endfor %}
+    {% endif %}
   {% endunless %}
-{% endfor %}
 {% endfor %}

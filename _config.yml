@@ -244,6 +244,7 @@ defaults:
       type: posts
     values:
       layout: blog-standalone
+      lang: zh-CN
       author_profile: false
       read_time: true
       comments: false
@@ -291,6 +292,27 @@ defaults:
       layout: talk
       author_profile: true
       share: true
+  # Upstream Teaching and Talks examples
+  - scope: { path: "_pages/teaching.html" }
+    values: &sitemap_sample
+      sitemap: false
+      template_sample: true
+  - scope: { path: "_pages/talks.html" }
+    values: *sitemap_sample
+  - scope: { path: "_teaching/2014-spring-teaching-1.md" }
+    values: *sitemap_sample
+  - scope: { path: "_teaching/2015-spring-teaching-2.md" }
+    values: *sitemap_sample
+  - scope: { path: "_talks/2012-03-01-talk-1.md" }
+    values: *sitemap_sample
+  - scope: { path: "_talks/2013-03-01-tutorial-1.md" }
+    values: *sitemap_sample
+  - scope: { path: "_talks/2014-02-01-talk-2.md" }
+    values: *sitemap_sample
+  - scope: { path: "_talks/2014-03-01-talk-3.md" }
+    values: *sitemap_sample
+  - scope: { path: "talkmap/map.html" }
+    values: *sitemap_sample
 
 
 # Sass/SCSS

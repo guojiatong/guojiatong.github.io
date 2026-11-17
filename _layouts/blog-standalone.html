@@ -1,7 +1,8 @@
 {% include base_path %}
+{% assign default_lang = site.locale | slice: 0,2 %}
 
 <!doctype html>
-<html lang="{{ site.locale | slice: 0,2 }}">
+<html lang="{{ page.lang | default: default_lang | escape }}">
   <head>
     <meta charset="utf-8">
     {% include seo.html %}
